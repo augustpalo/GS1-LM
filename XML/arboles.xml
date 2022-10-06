@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE arboles>
+
+<arboles>
+    <especie>
+        <nombre></nombre>
+        <vegetacion></vegetacion>
+        <altura></altura>
+        <forma-estructura></forma-estructura>
+        <color-primavera></color-primavera>
+        <color-otono></color-otono>
+        <resistencia></resistencia>
+    </especie>
+</arboles>

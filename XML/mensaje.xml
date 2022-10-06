@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE mensaje>
+
+<mensaje>
+    <remite>
+        <nombre></nombre>
+        <email></email>
+    </remite>
+    <destinatario>
+        <nombre></nombre>
+        <email></email>
+    </destinatario>
+    <asunto>Hola Bill</asunto>
+    <texo>
+        <parrafo>¿Hola que tal?</parrafo>
+        <parrafo>Hace mucho que no escribes.</parrafo>
+        <parrafo>Un saludo.</parrafo>
+    </texo>
+</mensaje>
