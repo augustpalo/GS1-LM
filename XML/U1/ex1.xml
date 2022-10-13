@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Torneo>
+<torneo>
+    <nombre>Wimbeldon</nombre>
+    <fechaInicio>13-10-2022</fechaInicio>
+    <fechaFin>18-10-2022</fechaFin>
+
+    <partido id ="1">
+        <fecha>13-10-2022</fecha>
+        <jugador1>
+            <nombre>Salvador Sevilla</nombre>
+            <rank>1</rank>
+        </jugador1>
+        <jugador2>
+            <nombre>Herman Huelva</nombre>
+            <rank>2</rank>
+        </jugador2>
+        <sets>
+            <resultadoSet1>6 - 5</resultadoSet1>
+            <resultadoSet2>6 - 5</resultadoSet2>
+            <resultadoSet3>6 - 4</resultadoSet3>
+        </sets>
+    </partido>
+    <partido id ="2">
+        <fecha>13-10-2022</fecha>
+        <jugador1>
+            <nombre>Carlos Cadiz</nombre>
+            <rank>3</rank>
+        </jugador1>
+        <jugador2>
+            <nombre>Miguel Malaga</nombre>
+            <rank>4</rank>
+        </jugador2>
+        <sets>
+            <resultadoSet1>5 - 6</resultadoSet1>
+            <resultadoSet2>4 - 6</resultadoSet2>
+            <resultadoSet3>4 - 6</resultadoSet3>
+        </sets>
+    </partido>
+    <partido id ="3">
+        <fecha>14-10-2022</fecha>
+        <jugador1>
+            <nombre>Gustavo Granada</nombre>
+            <rank>5</rank>
+        </jugador1>
+        <jugador2>
+            <nombre>Carlos Cordoba</nombre>
+            <rank>6</rank>
+        </jugador2>
+        <sets>
+            <resultadoSet1>6 - 3</resultadoSet1>
+            <resultadoSet2>6 - 4</resultadoSet2>
+            <resultadoSet3>1 - 6</resultadoSet3>
+        </sets>
+    </partido>
+    <partido id ="4">
+        <fecha>14-10-2022</fecha>
+        <jugador1>
+            <nombre>Alberto Almeria</nombre>
+            <rank>7</rank>
+        </jugador1>
+        <jugador2>
+            <nombre>Jose Jerez</nombre>
+            <rank>8</rank>
+        </jugador2>
+        <sets>
+            <resultadoSet1>6 - 1</resultadoSet1>
+            <resultadoSet2>6 - 4</resultadoSet2>
+            <resultadoSet3>6 - 4</resultadoSet3>
+        </sets>
+    </partido>
+    <partido id ="5">
+        <fecha>15-10-2022</fecha>
+        <jugador1>
+            <nombre>Victor Valencia</nombre>
+            <rank>9</rank>
+        </jugador1>
+        <jugador2>
+            <nombre>Silvio Santander</nombre>
+            <rank>10</rank>
+        </jugador2>
+        <sets>
+            <resultadoSet1>6 - 5</resultadoSet1>
+            <resultadoSet2>6 - 5</resultadoSet2>
+            <resultadoSet3>6 - 4</resultadoSet3>
+        </sets>
+    </partido>
+    <partido id ="6">
+        <fecha>16-10-2022</fecha>
+        <jugador1>
+            <nombre>Pepe Pamplona</nombre>
+            <rank>11</rank>
+        </jugador1>
+        <jugador2>
+            <nombre>Jose Jaen</nombre>
+            <rank>12</rank>
+        </jugador2>
+        <sets>
+            <resultadoSet1>6 - 1</resultadoSet1>
+            <resultadoSet2>6 - 4</resultadoSet2>
+            <resultadoSet3>6 - 4</resultadoSet3>
+        </sets>
+    </partido>
+    <partido id ="7">
+        <fecha>16-10-2022</fecha>
+        <jugador1>
+            <nombre>Pepe Perez</nombre>
+            <rank>13</rank>
+        </jugador1>
+        <jugador2>
+            <nombre>Joselito Fulanito</nombre>
+            <rank>14</rank>
+        </jugador2>
+        <sets>
+            <resultadoSet1>6 - 1</resultadoSet1>
+            <resultadoSet2>6 - 4</resultadoSet2>
+            <resultadoSet3>6 - 4</resultadoSet3>
+        </sets>
+    </partido>
+    <partido id ="8">
+        <fecha>17-10-2022</fecha>
+        <jugador1>
+            <nombre>Garcio Gomez</nombre>
+            <rank>15</rank>
+        </jugador1>
+        <jugador2>
+            <nombre>Jaime Hernandez</nombre>
+            <rank>16</rank>
+        </jugador2>
+        <sets>
+            <resultadoSet1>6 - 1</resultadoSet1>
+            <resultadoSet2>6 - 4</resultadoSet2>
+            <resultadoSet3>6 - 4</resultadoSet3>
+        </sets>
+    </partido>
+    <partido id ="9">
+        <fecha>17-10-2022</fecha>
+        <jugador1>
+            <nombre>Charlie Smith</nombre>
+            <rank>17</rank>
+        </jugador1>
+        <jugador2>
+            <nombre></nombre>
+            <rank>18</rank>
+        </jugador2>
+        <sets>
+            <resultadoSet1>6 - 1</resultadoSet1>
+            <resultadoSet2>6 - 4</resultadoSet2>
+            <resultadoSet3>6 - 4</resultadoSet3>
+        </sets>
+    </partido>
+    <partido id ="10">
+        <fecha>18-10-2022</fecha>
+        <jugador1>
+            <nombre>Rafael Nadal</nombre>
+            <rank>19</rank>
+        </jugador1>
+        <jugador2>
+            <nombre>Novak Djokovic</nombre>
+            <rank>20</rank>
+        </jugador2>
+        <sets>
+            <resultadoSet1>6 - 1</resultadoSet1>
+            <resultadoSet2>6 - 4</resultadoSet2>
+            <resultadoSet3>6 - 4</resultadoSet3>
+        </sets>
+    </partido>
+
+
+</torneo> 
