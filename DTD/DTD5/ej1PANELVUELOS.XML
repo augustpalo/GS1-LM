@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE panel [
+    <!ELEMENT panel (nombre, vuelo+, fecha)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT vuelo (diario?, origen, destino, horaS, horaLL)>
+        <!ATTLIST vuelo codigo ID #REQUIRED>
+        <!ATTLIST vuelo estado (C | E | R) "E">
+        <!ELEMENT diario EMPTY>
+        <!ELEMENT origen (#PCDATA)>
+        <!ELEMENT destino (#PCDATA)>
+        <!ELEMENT horaS (#PCDATA)>
+        <!ELEMENT horaLL (#PCDATA)>
+    <!ELEMENT fecha (#PCDATA)>
+]>
+
+<panel>
+    <nombre>Aeropuerto JFK</nombre>
+    <vuelo codigo="V22" estado="E">
+        <diario />
+        <origen>New york</origen>
+        <destino>Chicago</destino>
+        <horaS>9:30</horaS>
+        <horaLL>11:30</horaLL>
+    </vuelo>
+    <vuelo codigo="V23" estado="C">
+        <origen>New york</origen>
+        <destino>Miami</destino>
+        <horaS>10:15</horaS>
+        <horaLL>11:15</horaLL>
+    </vuelo>
+    <fecha>20/12/2013</fecha>
+</panel>
