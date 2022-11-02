@@ -2,13 +2,50 @@
 <!DOCTYPE arboles>
 
 <arboles>
-    <especie>
-        <nombre></nombre>
-        <vegetacion></vegetacion>
-        <altura></altura>
-        <forma-estructura></forma-estructura>
+    <especie nLat="Acer monspessulanum">
+        <nombre>Arce de Montpellier, Arce menor</nombre>
+        <vegetacion>Caducifolio</vegetacion>
+        <altura>6 a 10 metros</altura>
+        <forma-estructura>Copa esferica. Tronco principal recto con bifurcaciones. Ramaje colgante</forma-estructura>
+        <color-primavera>Haz verde brillante, enves verde blanquecino</color-primavera>
+        <color-otono></color-otono>
+        <resistencia>Heladas fuertes(Hasta -15ºC)</resistencia>
+    </especie>
+    <especie nLat="Olea europea">
+        <nombre>Olivo</nombre>
+        <vegetacion>Perenne</vegetacion>
+        <altura>8 a 15 metros</altura>
+        <forma-estructura>Copa irregular. Tronco principal irregular con bifurcaciones</forma-estructura>
         <color-primavera></color-primavera>
         <color-otono></color-otono>
         <resistencia></resistencia>
     </especie>
+    <especie nLat="Ramaje toruoso">
+        <nombre></nombre>
+        <vegetacion></vegetacion>
+        <altura></altura>
+        <forma-estructura></forma-estructura>
+        <color-primavera>Haz verde oscuro, envés verde plateado</color-primavera>
+        <color-otono></color-otono>
+        <resistencia>Heladas medias (hasta -10ºC)</resistencia>
+    </especie>
+    <especie nLat="Platnus orientalis">
+        <nombre>Platano</nombre>
+        <vegetacion>Caducifolio</vegetacion>
+        <altura>de 20 a 25 metros</altura>
+        <forma-estructura>Copa ovoidal. Tronco principal recto. Ramaje expandido</forma-estructura>
+        <color-primavera>Haz verde medio, enves verde claro</color-primavera>
+        <color-otono>Ocre</color-otono>
+        <resistencia>heladas fuertes (hasta -20ºC)</resistencia>
+    </especie>    
+    <especie nLat="Quercus ilex">
+        <nombre>Encina</nombre>
+        <vegetacion>Perenne</vegetacion>
+        <altura>en torno a 25 metros</altura>
+        <forma-estructura>Copa esferica o elipticar irregular. Tronco principal recto. Ramaje tortuoso</forma-estructura>
+        <color-primavera>Plateado en hojas jovenes. En hojas antiguas, haz verde oscuro, enves plateado</color-primavera>
+        <color-otono></color-otono>
+        <resistencia>Heladas fuertes (hasta -15ºC)</resistencia>
+    </especie>
+    
 </arboles>
