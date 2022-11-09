@@ -1,0 +1,11 @@
+<!ELEMENT panel (nombre,vuelo+,fecha)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT vuelo (diario?,origen,destino,horaS,horaLL)>
+<!ATTLIST vuelo codigo NMTOKEN #REQUIRED>
+<!ATTLIST vuelo estado NMTOKEN #REQUIRED>
+<!ELEMENT diario EMPTY>
+<!ELEMENT origen (#PCDATA)>
+<!ELEMENT destino (#PCDATA)>
+<!ELEMENT horaS (#PCDATA)>
+<!ELEMENT horaLL (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE airports [
+ <!ELEMENT airports (airport*)>
+ <!ELEMENT airport (name, closed?)>
+ <!ELEMENT name (#PCDATA)>
+ <!ELEMENT closed EMPTY>
+]>
