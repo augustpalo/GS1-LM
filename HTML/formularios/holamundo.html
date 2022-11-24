@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+
+        <label for="id_nombre" style="font-weight: bold; border: 1px solid">Soy un formulario</label>
+        <input type="text" name="nombre" id="id_nombre" required placeholder="Introduzca aqui su nombre">
+        <input type="submit" name="" id="id_nombre">
+        <input type="button" name="Entregar" id="" value="entregar" style="background-color: green;">
+        <br>
+        <label for="selectOpciones"></label>
+        <select name="opciones" id="selectOpciones" size="7" multiple>
+            <option value="manzana">Manzana</option>
+            <option value="platano">Platano</option>
+            <option value="pera">Pera</option>
+            <option value="piña">piña</option>
+            <option value="cereza">cereza</option>
+            <option value="fresa">fresa</option>
+            <option value="ciruela">ciruela</option>
+        </select>
+        <br>
+        <fieldset>
+            <legend>Formulario de de consulta</legend>
+            <table>
+                <tr>
+                    <td><label for="ta_areatexto"> Escriba aqui su consuluta</label></td>
+                    <td><textarea name="areadetexto" id="ta_areatexto" placeholder="escriba aqui su consulta" cols="30"
+                            rows="10" style="font-family:Verdana, Geneva, Tahoma, sans-serif"></textarea></td>
+                </tr>
+            </table>
+
+            <input type="button" value="Aceptar">
+            <input type="reset" name="" id="">
+            <input type="text">
+        </fieldset>
+
+    </form>
+    <form action="">
+        <label for="segundoFormulario"></label>
+        <input type="email" name="" id="segundoFormulario">
+        <input type="submit" name="" id="segundoFormulario">
+
+        <input type="radio" name="equipo" id="equipo1">
+        <label for="equipo1">Costa Rica</label>
+        <input type="radio" name="equipo" id="equipo2">
+        <label for="equipo2">Francia</label>
+        <input type="radio" name="equipo" id="equipo3">
+        <label for="equipo3">España</label>
+    </form>
+</body>
+
+</html>
