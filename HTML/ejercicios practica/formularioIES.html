@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario IES Alixar</title>
+    <style>
+        table{
+            border: solid;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        td{
+            text-align: left;
+            border: solid 1px;
+        }
+        th{
+            padding-right: 5px; 
+        }
+    </style>
+</head>
+<body>
+    
+    <form method="post" action="">
+        <table>
+            <tr>
+                <td colspan="2">IES Alixar Login</td>
+            </tr>
+            <tr>
+                <td><label for="usuario"> Usuario:</label></td>
+                <td><input type="text" id="usuario"></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password:</label></td>
+                <td><input type="password" id="password"></td>
+            </tr>
+            <tr>
+                <td><label for="fechanac"> Fecha de Nacimiento:</label></td>
+                <td><input type="date" id="fechanac"></td>
+            </tr>
+            <tr>
+                <td><label for="curso">Curso de Matriculacion</label></td>
+                <td><select name="cursos" id="curso">
+                    <option value="Primero DAW1">Primero DAW1</option>
+                    <option value="Segundo DAW2">Segundo DAW2</option>
+                    <option value="Primero DAM1">Primero DAM1</option>
+                    <option value="Segundo DAM2">Segundo DAM2</option>
+                    <option value="Primero ASIR">Primero ASIR1</option>
+                    <option value="Segundo ASIR2">Segundo ASIR2</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td rowspan="4"><label>Role</label></td>
+                <td><input type="radio" name="rol" id="_rol"> Estudiante</td>
+            </tr>
+            <tr>
+                <td>Profesor</td>
+            </tr>
+            <tr>
+                <td>Apoyo</td>
+            </tr>
+            <tr>
+                <td>Staff</td>
+            </tr>
+            <tr>
+                <td rowspan="3">Forma de comunicacion</td>
+                <td>Mail</td>
+            </tr>
+            <tr>
+                <td>Teléfono</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Correo Ordinario</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Enviar"></td>
+                <td><input type="reset" value="Borar"></td>
+            </tr>
+        </table>
+
+    </form>
+</body>
+</html>
