@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form {
+            border-style: solid;
+            border-color: blue;
+            padding-left: 10px;
+        }
+
+        p {
+            color: red;
+        }
+
+        legend {
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <form method="post">
+        <h1>Reserved Request</h1>
+        <fieldset>
+            <legend>General Information</legend>
+            <table>
+                <tr>
+                    <td>Arrival Date:</td>
+                    <td><input type="text" value="12/39/2016"></td>
+                    <td>
+                        <p>Arrival date is invalid</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="noches">Nights:</label></td>
+                    <td><input type="text" id="noches" value="three"></td>
+                    <td>
+                        <p>Nights must be a number</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="adultos">Adults:</label></td>
+                    <td><input type="number" id="adultos" size="1"></td>
+                </tr>
+                <tr>
+                    <td><label for="niños">Children:</label></td>
+
+                    <td><input type="number" id="niños" size="-10"></td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>Preferences</legend>
+            Room Type:
+            <input name="roomtype" type="radio" id="standard">
+            <label for="standard">Standard</label>
+            <input name="roomtype" type="radio" id="business">
+            <label for="business">Business</label>
+            <input name="roomtype" type="radio" id="suite">
+            <label for="suite">Suite</label>
+            <br>
+            Bed Type:
+            <input name="bedtype" type="radio" id="king" value="1">
+            <label for="king">King</label>
+            <input name="bedtype" type="radio" id="doubledouble">
+            <label for="doubledouble">Double Double</label>
+            <br>
+            <input type="checkbox" id="fuma">
+            <label for="fuma">Smoking</label>
+
+        </fieldset>
+        <fieldset>
+            <legend>Contact Information</legend>
+            <table>
+                <tr>
+                    <td><label for="nombre">Name:</label></td>
+                    <td><input type="text" id="nombre"></td>
+                    <td>
+                        <p>Name is required</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td><input type="text" id="email" value="graceyahoo.com"></td>
+                    <td>
+                        <p>Email address is invalid</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="telefono">Phone:</label></td>
+                    <td><input type="text" id="telefono" value="123-456-789"></td>
+                    <td>
+                        <p>Phone is invalid</p>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        
+        <input style="width: 150px; margin: 10px;" type="submit" value="Submit Reservation">
+        <input style="width: 150px;" type="reset" value="clear">
+    </form>
+</body>
+
+</html>
