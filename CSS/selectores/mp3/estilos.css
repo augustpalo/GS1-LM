@@ -1,0 +1,42 @@
+*{
+    text-align: center;
+    margin: auto;
+}
+h1{
+    text-align: center;
+}
+img{
+    height: 50px;
+    width: 50px;
+}
+table{
+    border-collapse: collapse;
+    
+}
+td{
+    border: 1px solid;
+    border-collapse: collapse;
+}
+tr>th{
+    background-color: red;
+    color: white;
+}
+th{
+    border: 1px solid;
+}
+#cap{
+    background-color: gray;
+    color: black;
+    text-align: center;
+    font-size: 2em;
+}
+#list{
+    color: red;
+}
+#cincoh{
+    padding: 20px 0px;
+    background-color: yellow;
+}
+[colspan="2"] , [colspan="3"]{
+    background-color: blue;
+}
