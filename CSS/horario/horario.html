@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <table>
+        <caption><a href="https://www.google.com" target="_blank">Horario de clase</a></caption>
+        <thead>
+            <th>horas</th>
+            <th>lunes</th>
+            <th>martes</th>
+            <th>miercoles</th>
+            <th>jueves</th>
+            <th>viernes</th>
+        </thead>
+        <tbody>
+            <tr>
+                <th>0815</th>
+                <td rowspan="2">ISO</td>
+                <td colspan="2">FOL</td>
+                <td rowspan="2">LMGI</td>
+                <td rowspan="2">ISO</td>
+            </tr>
+            <tr>
+                <th>0915</th>
+                <td>FH</td>
+                <td rowspan="2">PAR</td>
+            </tr>
+            <tr>
+                <th>1015</th>
+                <td>GBD</td>
+                <td>PAR</td>
+                <td>ISO</td>
+                <td>PAR</td>
+            </tr>
+            <tr>
+                <th></th>
+                <td colspan="6"><i>Recreo</i></td>
+            </tr>
+            <tr>
+                <th>1145</th>
+                <td>GBD</td>
+                <td>PAR</td>
+                <td>FH</td>
+                <td>ISO</td>
+                <td>PAR</td>
+            </tr>
+            <tr>
+                <th>1245</th>
+                <td>FH</td>
+                <td rowspan="2">ISO</td>
+                <td rowspan="2">LMGI</td>
+                <td rowspan="2">GBD</td>
+                <td rowspan="2">GBD</td>
+            </tr>
+            <tr>
+                <th>1345</th>
+                <td>FOL</td>
+            </tr>
+
+        </tbody>
+    </table>
+
+    <form method="post">
+        
+        <label for="correoElectronico">Email</label><input type="email" id="correoElectronico" placeholder="Inserte email del destinatario" required >
+        <br>
+        <button type="submit">Enviar Horario</button>
+    </form>
+</body>
+
+</html>
