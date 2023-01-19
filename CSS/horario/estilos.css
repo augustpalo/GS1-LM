@@ -6,17 +6,19 @@ table{
 td{
     
     border: solid 1px;
-    transition: 1s;
     font-size: 16px;
+}
+tr>*:last-child{
+    transition: 1s;
 }
 th{
     padding-right: 5px;
-    transition: 1s;
+    
 }
 thead th::first-letter{ 
     font-size: 3em;
     text-transform: capitalize;
-    transition: 1s;
+    
 }
 tbody th:first-child{
     background-color: green;
