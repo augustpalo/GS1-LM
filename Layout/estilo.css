@@ -3,41 +3,60 @@ body{
 }
 body div{
     width: 80%;
+    min-width: 400px;
     margin: auto;
+
+}
+nav{
+    width: 100%;
+    background-image: linear-gradient(lightblue, #114f69);
+    border-radius: 10px 10px 0px 0px;
 }
 ul{
-    background-image: linear-gradient(lightblue, #114f69);
+    
     display: flex;
     list-style: none;
     color: lightgray;
-    width:auto;
     margin: 0;
     padding-left: 10px;
 }
-li{
+nav>ul li{
     padding: 2%;
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
-    font-size: 150%;
+    font-size: 1em;
+    display: list-item;
 
 }
+nav>ul li:hover{
+    transition: 0.5s;
+    background-color: #114f69;
 
-img{
-    width: -webkit-fill-available;
+}
+li{
+    display: contents;
+}
+
+main img{
+    width: 100%;
+    border-radius: 0px 0px 10px 10px;
 }
 h1{
     width: 100%;
     margin: 0;
-    font-family: 'Courier New', Courier, monospace;
-    font-style: italic;
-    font-size: 350%;
-    font-weight: 600;
-    color: linear-gradient(lightblue, #114f69);
+    font-family: monospace;
+    font-size: 72px;
+    background: -webkit-linear-gradient(lightblue, #114f69);
+    -webkit-background-clip: text;
+    background-clip: none ;
+    -webkit-text-fill-color: transparent;
 
 }
 div>div{
-    display: flex;
     margin: 0;
+    column-gap: 0px;
+    justify-content: space-around;
+    display: flex;
 }
 input{
     height: fit-content;
@@ -46,4 +65,5 @@ input{
 }
 main{
     margin-top: 20px;
+    width: 100%;
 }

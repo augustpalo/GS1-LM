@@ -1,0 +1,1 @@
+Las 5 ultimas clases no pertenecen a la clase verse, a quien se le aplican estilos en el fichero de estilos usando el selector p.clase

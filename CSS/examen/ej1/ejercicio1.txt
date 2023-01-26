@@ -1,0 +1,9 @@
+Selector body: contiene la propiedad background body que cambia el color de fondo a "tan"
+Selector h1: contiene etiqueta color que cambia el color de la fuente a maroon y la etiqueta font-size que cambia el tamaño a 20pt
+Selector hr: contiene la etiqueta color que cambia su color a "maroon"
+Selector p: le aplica la propriedad font-size que cambia su fuente y margin-left que introduce un margen de 15 px a la izquierda
+Selector p.verse: la aplica a todos los selectores de la clase p un color de fuente maroon y un margin de 60 pixeles a la izquierda
+a:link: se aplica a todos los enlaces, cambiando su color a verde
+a:visites: se aplica a todos los enlaces ya visitados, cambiando su color a amarillo
+a:hover: cuando el raton pase por encima de un enlace su presionar se cambia su color a negro
+a:active: cuando un usuario selecione cualquier enlace su color de fuente cambia a azul 
