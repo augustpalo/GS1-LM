@@ -1,31 +1,34 @@
-body{
+body {
     background-color: #0b3442;
 }
-body div{
-    width: 80%;
-    min-width: 400px;
-    margin: auto;
 
-}
-nav{
-    width: 100%;
-    background-image: linear-gradient(lightblue, #114f69);
-    border-radius: 10px 10px 0px 0px;
+body>div {
+    width: 60%;
+    min-width: 800px;
+    margin: auto;
 }
 ul{
     
     display: flex;
     list-style: none;
     color: lightgray;
+    width: auto;
     margin: 0;
     padding-left: 10px;
 }
-nav>ul li{
+nav{
+    width: 100%;
+    background-image: linear-gradient(lightblue, #114f69);
+    border-radius: 10px 10px 0px 0px;
+}
+
+nav> ul li {
     padding: 2%;
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
     font-size: 1em;
     display: list-item;
+    font-weight: bold;
 
 }
 nav>ul li:hover{
@@ -37,15 +40,15 @@ li{
     display: contents;
 }
 
-main img{
+main img {
     width: 100%;
     border-radius: 0px 0px 10px 10px;
 }
-h1{
-    width: 100%;
+
+h1 {
+    width: 70%;
     margin: 0;
-    font-family: monospace;
-    font-size: 72px;
+    font: italic bold 72px monospace;
     background: -webkit-linear-gradient(lightblue, #114f69);
     -webkit-background-clip: text;
     background-clip: none ;
@@ -57,13 +60,59 @@ div>div{
     column-gap: 0px;
     justify-content: space-around;
     display: flex;
+    margin: 0;
 }
-input{
+
+input {
     height: fit-content;
     align-self: center;
-
+    width: 30%;
+    padding: 15px;
+    background-color: rgb(196, 230, 246);
+    font: italic bold;
+    border-radius: 10px;
+    
 }
-main{
+
+input::placeholder{
+    font: italic 16px/30px Arial, serif;
+}
+
+main {
     margin-top: 20px;
     width: 100%;
 }
+
+main>p, main>button{
+    display: inline-block;
+}
+
+h3{
+    display: inline-block;
+    font-size: 2rem;
+    margin: 0;
+}
+
+article>*{
+    padding: 10px;
+}
+
+article div{
+    background-color: teal;
+    border-radius: 10px 10px 0px 0px;
+}
+
+article img{
+    height: 2rem;
+}
+
+article p{
+    background-color: grey;
+    border-radius: 0px 0px 10px 10px;
+    margin: 0%;
+}
+
+article+article{
+    margin-left: 0.5%;
+}
+
