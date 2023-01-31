@@ -1,20 +1,23 @@
-body{
+body {
     background-color: #0b3442;
 }
-body div{
+
+body>div {
     width: 80%;
     margin: auto;
 }
-ul{
+
+ul {
     background-image: linear-gradient(lightblue, #114f69);
     display: flex;
     list-style: none;
     color: lightgray;
-    width:auto;
+    width: auto;
     margin: 0;
     padding-left: 10px;
 }
-li{
+
+li {
     padding: 2%;
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
@@ -22,10 +25,11 @@ li{
 
 }
 
-img{
+img {
     width: -webkit-fill-available;
 }
-h1{
+
+h1 {
     width: 100%;
     margin: 0;
     font-family: 'Courier New', Courier, monospace;
@@ -35,15 +39,48 @@ h1{
     color: linear-gradient(lightblue, #114f69);
 
 }
-div>div{
+
+div>div {
     display: flex;
     margin: 0;
 }
-input{
+
+input {
     height: fit-content;
     align-self: center;
 
 }
-main{
+
+main {
     margin-top: 20px;
 }
+
+h3{
+    display: inline-block;
+    font-size: 2rem;
+    margin: 0;
+}
+
+article>*{
+    padding: 10px;
+}
+
+article div{
+    background-color: teal;
+    border-radius: 10px 10px 0px 0px;
+}
+
+article img{
+    height: 2rem;
+}
+
+article p{
+    background-color: grey;
+    border-radius: 0px 0px 10px 10px;
+    margin: 0%;
+}
+
+article+article{
+    margin-left: 0.5%;
+}
+
