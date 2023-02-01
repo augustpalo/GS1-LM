@@ -99,7 +99,7 @@ label::after {
     - <label> tiene el contenido "Nombre".
     - <label> es adyacente al elemento <input>.
     - Cuando el elemento <input> tenga el foco del navegador. */
-input:focus+label::after[content="Nombre"] {
+input[type="text"]:focus+label::after{
   content: "😎";
 }
 
@@ -107,7 +107,7 @@ input:focus+label::after[content="Nombre"] {
     - <label> tiene el contenido "E-mail".
     - <label> es adyacente al elemento <input>.
     - Cuando el elemento <input> tenga el foco del navegador. */
-input:focus+label::after[content="Nombre"] {
+input[type="email"]:focus+label::after {
   content: "🤔";
 }
 

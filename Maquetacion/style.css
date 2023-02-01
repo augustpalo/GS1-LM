@@ -1,0 +1,45 @@
+div.container{
+    background-color: rgb(134, 211, 134);
+    height: 600px;
+    margin: 20px auto;
+    width: 80%;
+
+}
+nav{
+    background-color: rgb(54, 54, 54);
+}
+
+nav>ul>li{
+    display: inline-block;
+    margin: 10px 40px 10px 10px;
+    color: white;
+}
+
+body{
+    background-color: lightgray;
+}
+
+aside>img{
+    height: 50px;
+    margin: 5px;
+}
+
+aside{
+    border: solid black;
+    position: fixed;
+    top: 20%;
+    height: 300px;
+    text-align: center;
+
+}
+
+aside>ul{
+    list-style: none;
+    padding: 0;
+    
+}
+div.container>figure{
+    height: 100px;
+    width: 200px;
+}
+
