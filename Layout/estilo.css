@@ -32,17 +32,42 @@ nav> ul li {
 
 }
 nav>ul li:hover{
-    transition: 0.5s;
+    transition: 2s;
     background-color: #114f69;
 
 }
 li{
     display: contents;
 }
+main{
+    position: relative;
 
+}
 main img {
     width: 100%;
     border-radius: 0px 0px 10px 10px;
+}
+img.arrow{
+    width: 10%;
+}
+main #left{
+    position: absolute;
+    top: 40%;
+    left: -5%;
+}
+main #right{
+    transform: rotate(180deg);
+    position: absolute;
+    top: 40%;
+    left: 95%;
+}
+button{
+    color: white;
+    font: italic 600 1.5em verdana, sans-serif;
+    background-image: radial-gradient(elipsis #114f69 75%,lightblue);
+    border-radius: 5px;
+    border: 1px solid lightblue;
+    padding: 10px;
 }
 
 h1 {
@@ -83,8 +108,10 @@ main {
     width: 100%;
 }
 
-main>p, main>button{
+main+p{
     display: inline-block;
+    color: white;
+    font: italic 300 1.2em georgia;
 }
 
 h3{
@@ -115,4 +142,3 @@ article p{
 article+article{
     margin-left: 0.5%;
 }
-
