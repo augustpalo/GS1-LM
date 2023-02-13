@@ -43,3 +43,7 @@ div.container>figure{
     width: 200px;
 }
 
+div.container>figure>img{
+    width: 100%;
+}
+
