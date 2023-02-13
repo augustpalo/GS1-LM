@@ -7,12 +7,22 @@ div.container{
 }
 nav{
     background-color: rgb(54, 54, 54);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
 }
 
 nav>ul>li{
     display: inline-block;
-    margin: 10px 40px 10px 10px;
     color: white;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    width: 15%;
+}
+
+nav>ul>li:hover{
+    background-image: linear-gradient(rgb(54, 54, 54), lightgray);
+    transition: 1s;
 }
 
 body{
@@ -25,6 +35,7 @@ aside>img{
 }
 
 aside{
+    
     border: solid black;
     position: fixed;
     top: 20%;
@@ -40,6 +51,59 @@ aside>ul{
 }
 div.container>figure{
     height: 100px;
-    width: 200px;
+    width: 150px;
+    text-align: center;
+    background-color: white;
+    border: black solid 2px;
+    padding: 30px;
+    border-radius: 15px;
 }
 
+figure>img{
+    height: 100%;
+}
+
+#i1{
+    position: absolute;
+    left: 30%;
+    top: 25%;
+    transform: rotate(325deg);
+    z-index: 4;
+    transition: 1s;
+}
+#i1:hover{
+    transform: rotate(0deg);
+}
+#i2{
+    position: absolute;
+    left: 35%;
+    top: 32%;
+    transform: rotate(30deg);
+    z-index: 3;
+    transition: 1s;
+}
+#i2:hover{
+    transform: rotate(360deg);
+}
+#i3{
+    position: absolute;
+    left: 45%;
+    top: 36%;
+    transform: rotate(280deg);
+    z-index: 2;
+    transition: 1s;
+}
+#i3:hover{
+    transform: rotate(0deg);
+}
+#i4{
+    position: absolute;
+    left: 55%;
+    top: 40%;
+    transform: rotate(10deg);
+    z-index: 1;
+    transition: 1s;
+}
+#i4:hover{
+    transform: rotate(360deg);
+}
