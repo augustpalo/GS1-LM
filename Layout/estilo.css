@@ -62,7 +62,8 @@ main #right{
 }
 button{
     color: white;
-    font: italic 600 1.5em verdana, sans-serif;
+    width: 30%;
+    font: italic 600 1.02em verdana, sans-serif;
     background-image: linear-gradient(0deg,#356173, #4f819c);
     border-radius: 5px;
     border: 0.5px solid #84b1c6;
@@ -107,10 +108,11 @@ main {
     width: 100%;
 }
 
-main+p{
+main+div>p{
     display: inline-block;
     color: white;
-    font: italic 300 1.2em georgia;
+    font: italic 300 1.05em georgia;
+    width: 70%;
 }
 
 h3{
@@ -138,7 +140,7 @@ article div{
     background-image: linear-gradient(0deg, #506d7d, #6d929d);
     border-radius: 10px 10px 0px 0px;
 }
-article>ul>li{
+article>ul li{
     display: list-item;
     list-style: inside;
     list-style-type: disc;
@@ -146,7 +148,12 @@ article>ul>li{
     font-family: Arial, Helvetica, sans-serif;
     padding: 10px;
 }
-
+a{
+    all: inherit;
+}
+article>ul>a:visited{
+    color: #695d7d;
+}
 article>div>img{
     height: 2rem;
     vertical-align: bottom;
