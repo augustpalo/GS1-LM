@@ -51,16 +51,7 @@ aside>ul{
 }
 div.container>figure{
     height: 100px;
-    width: 150px;
-    text-align: center;
-    background-color: white;
-    border: black solid 2px;
-    padding: 30px;
-    border-radius: 15px;
-}
-
-figure>img{
-    height: 100%;
+    width: 200px;
 }
 
 #i1{
