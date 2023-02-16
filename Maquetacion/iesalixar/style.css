@@ -7,6 +7,9 @@ h1 {
     padding: 20px 0px 0px 10px;
     margin: 0px;
 }
+h4{
+    margin-bottom: 2px;
+}
 
 div.head {
     background-color: black;
@@ -23,34 +26,42 @@ div.login {
 div.nav>div {
     display: inline-block;
     color: white;
-    padding: 5px;
+    padding: 10px;
+    transition: 500ms;
 
+}
+
+div.nav>div:hover{
+    color: #446600;
+    background-color: white;
 }
 
 div.nav {
     background-color: #446600;
-    padding: 5px;
+    padding: 0px;
+    border-bottom: solid 3px #304700 ;
 }
 
 div.menuprin {
     float: left;
     background-color: rgb(199, 199, 199);
     padding: 10px;
-    margin-top: 30px;
+    margin: 20px 0px 0px 30px;
     border-radius: 5px;
+    width: 200px;
+}
+div.menuprin img{
+    width: 100%;
 }
 
 div.calen {
     float: left;
     background-color: rgb(199, 199, 199);
     padding: 20px 20px 20px 20px;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
-div.imagen {
-    margin: 50px;
 
-}
 
 div.arbol {
     border: 0.5px solid #446600;
@@ -68,9 +79,19 @@ div.arbol {
 
 div.medio {
 
-    margin: 20px;
+    margin: 20px 40px 20px 40px;
     display: block;
     float: left;
+    width: 60%;
+}
+
+div.imagen {
+    margin: 30px;
+    padding-left: 20px;
+}
+div.imagen img{
+    width: 80%;
+    margin-left: 40px;
 }
 
 div.moodle {
@@ -78,14 +99,26 @@ div.moodle {
     float: left;
     width: 100%;
     background-color: rgb(59, 59, 59);
+    border-radius: 0 0 10px 10px;
     color: white;
 }
 
 div.cat {
     background-color: rgb(199, 199, 199);
     margin: 10px 0px;
+    font-weight: bold;
     border-bottom: solid #446600;
 }
 div.moodle p {
     margin: 0px;
+}
+li>span{
+    font-weight: bolder;
+    color: black;
+}
+div.arbol li{
+    color: green;
+    font-weight: bold;
+    list-style-type: none;
+    margin: 2px;
 }
