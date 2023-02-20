@@ -197,7 +197,7 @@ footer article{
 footer article div+div{
     margin-top: 20px;
     width: 45%;
-    display: inline-block;
+    display: inline-flex;
 }
 footer>article>div+div>img{
     width: 200px;
