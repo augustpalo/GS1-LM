@@ -26,7 +26,7 @@ nav> ul li {
     padding: 2%;
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
-    font-size: 1em;
+    font-size: 1.5em;
     display: list-item;
     font-weight: bold;
 
@@ -69,17 +69,23 @@ button{
     border: 0.5px solid #84b1c6;
     padding: 10px;
     margin: 10px 0px;
+    box-shadow: 0 0 0px white;
+    text-shadow: 0 0 0px white;
+    transition: box-shadow 100ms;
+}
+button:hover{
+    box-shadow: 0 0 5px white;
+    text-shadow: 0 0 2px white;
 }
 
 h1 {
     width: 70%;
     margin: 0;
     font: italic bold 72px monospace;
-    background: -webkit-linear-gradient(lightblue, #114f69);
+    background: -webkit-linear-gradient(lightblue, #437d95);
     -webkit-background-clip: text;
     background-clip: none ;
     -webkit-text-fill-color: transparent;
-
 }
 div>div{
     margin: 10px 0px;
@@ -110,8 +116,11 @@ main {
 
 main+div>p{
     display: inline-block;
-    color: white;
-    font: italic 300 1.05em georgia;
+    color: #85a5b4;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.25em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     width: 70%;
 }
 
@@ -120,6 +129,8 @@ h3{
     font-size: 2rem;
     margin: 0;
     color: #cfe8ea;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
 }
 
 article{
@@ -128,15 +139,18 @@ article{
     width: 33.33%;
 }
 
-
-
 article>*{
     padding: 10px;
     margin: 0%;
     color: #5d737d;
 }
+article p{
+    font-size: 1.25em;
+    padding: 0px 30px 0px 30px;
+    margin-top: 10px;
+}
 
-article div{
+article div:first-child{
     background-image: linear-gradient(0deg, #506d7d, #6d929d);
     border-radius: 10px 10px 0px 0px;
 }
@@ -145,8 +159,9 @@ article>ul li{
     list-style: inside;
     list-style-type: disc;
     font-weight: 700;
+    font-size: 1.5em;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 10px;
+    padding: 4px;
 }
 a{
     all: inherit;
@@ -158,14 +173,58 @@ article>div>img{
     height: 2rem;
     vertical-align: bottom;
 }
-article>img{
-    display: inline;
-    background-color: white;
+article>div.products{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    
 }
+article>div.products>img{
+    background-color: white;
+    padding: 5px;
+    width: 85px;
+    height: auto;
+    flex-grow: 1;
+}
+
 article+article{
     margin-left: 0.5%;
 }
 footer article{
     width: 100%;
+}
+footer article div+div{
     margin-top: 20px;
+    width: 45%;
+    display: inline-block;
+}
+footer>article>div+div>img{
+    width: 200px;
+    height: 200px;
+    border: 5px solid white ;
+    padding: 0px;
+    float: left;
+   
+   
+}
+footer div > div{
+    float: left;
+    display:block;
+    width: 55%;
+    margin: 0px 0px 0px 15px;
+}
+footer div:nth-of-type(2){
+    margin-left: 4%;
+}
+    
+footer p{
+    margin: 0;
+    padding: 0;
+}
+footer h2{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
 }
