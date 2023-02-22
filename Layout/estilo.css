@@ -15,13 +15,17 @@ body>div>ul, main ul{
     
     list-style: none;
     color: lightgray;
-    width: auto;
+    width: 100%;
     margin: 0;
-    padding-left: 10px;
+    padding: 0;
     
 }
-body>div>ul>li{
-    display: inline-block;
+body>div>ul>li:first-of-type{
+    float: left;
+}
+body>div>ul>li:nth-of-type(2){
+    float: right;
+    padding-top: 0px;
 }
 nav{
     width: 100%;
@@ -70,16 +74,18 @@ main #right{
 }
 button{
     color: white;
-    width: 30%;
-    font: italic 600 1.02em verdana, sans-serif;
+    font: italic 600 1.5em verdana, sans-serif;
     background-image: linear-gradient(0deg,#356173, #4f819c);
     border-radius: 5px;
     border: 0.5px solid #84b1c6;
-    padding: 10px;
-    margin: 10px 0px;
+    padding: 10px 5px;
+    margin: 10px 0 0 1%;
     box-shadow: 0 0 0px white;
     text-shadow: 0 0 0px white;
     transition: box-shadow 100ms;
+    position: absolute;
+    top: 50%;
+    transform: translate(0,-75%);
 }
 button:hover{
     box-shadow: 0 0 5px white;
@@ -87,26 +93,23 @@ button:hover{
 }
 
 h1 {
-    width: 100%;
+    width: fit-content;
     margin: 0;
     font: italic bold 72px monospace;
     background: -webkit-linear-gradient(lightblue, #437d95);
     -webkit-background-clip: text;
     background-clip: none ;
     -webkit-text-fill-color: transparent;
-    display: inline-block;
+    float: left;
 }
 
 input {
-    align-self: center;
-    width: 100%;
+    width: 40%;
     padding: 15px;
     background-color: rgb(196, 230, 246);
     border-radius: 10px;
-    position: relative;
-    left: 95%;
-    bottom: 20px;
-    
+    float: right;
+    margin-top: 2px;
 }
 
 input::placeholder{
@@ -123,9 +126,14 @@ main+div>p{
     color: #85a5b4;
     font-style: italic;
     font-weight: 600;
-    font-size: 100%;
+    font-size: 127%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     width: 69%;
+}
+body>div>div:first-of-type{
+    position: relative;
+    width: 100%;
+    margin: 8px 0;
 }
 
 h3{
@@ -140,7 +148,7 @@ h3{
 article{
     border-radius: 10px 10px 10px 10px;
     background-color: #9fb3be;
-    width: 32%;
+    width: 33%;
     height: 275px;
     float: left;
     
@@ -153,7 +161,7 @@ article>*{
 }
 article p{
     font-size: 100%;
-    padding: 0px 30px 0px 30px;
+    padding: 0px 15px;
     margin-top: 10px;
 }
 
@@ -168,62 +176,72 @@ article>ul li{
     font-weight: 700;
     font-size: 100%;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 4px;
+    padding: 2px;
+}
+article>ul{
+    padding: 0 15px;
+    margin-top: 10px;
+}
+article>ul a{
+    padding: 0;
+    margin: 0;
+}
+article>ul a:visited{
+    text-decoration: none;
+
+    padding: 0;
+    margin: 0;
 }
 a{
     all: inherit;
-}
-article>ul>a:visited{
-    color: #695d7d;
-}
+}   
 article>div>img{
     height: 2rem;
     vertical-align: bottom;
 }
 article>div.products{
-    
-    
-    
-    margin-top: 20px;
-   
-    
+
+    width: 100%;
+    padding: 0 0 0 9%;
 }
 article>div.products>img{
     background-color: white;
-    padding: 5px;
-    max-width: 45px;
+    padding: 2%;
+    margin: 5% 4%;
+    width: 18%;
+    min-width: 40px;
+    max-width: 55px;
     height: auto;
-    
 }
 
 article+article{
-    margin-left: 2%;
+    margin-left: 0.5%;
 }
 footer article{
     width: 100%;
+    margin-top: 10px;
 }
 footer article div+div{
     margin-top: 20px;
     width: 45%;
+    float: left;
     
 }
 footer>article>div+div>img{
-    width: 200px;
-    height: 200px;
+    width: 45%;
+    height: auto;
     border: 5px solid white ;
-    padding: 0px;
-    float: left;
-   
-   
+    padding: 0px; 
+    float: left; 
 }
-footer div > div{
+footer>article>div>div{
     float: left;
-    display:block;
-    width: 55%;
-    margin: 0px 0px 0px 15px;
+    margin-left: 25px;
+    width: 45%;
+
 }
 footer div:nth-of-type(2){
-    margin-left: 4%;
+    margin-left: 2%;
 }
     
 footer p{
@@ -231,6 +249,7 @@ footer p{
     padding: 0;
 }
 footer h2{
+    font-size: 1.5em;
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
