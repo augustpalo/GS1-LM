@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+a:link{
+    color: white;
+    text-decoration: none;
+
+}
+ul,
+h2,
+p {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body>div {
+    width: 80%;
+    margin: 0 auto;
+}
+
+div.titulo * {
+    display: inline-block;
+    margin: 0;
+}
+.titulo div:nth-of-type(2){
+    color: gray;
+    text-align: start;
+    padding: 2px;
+
+}
+h1{
+    border-right: 2px solid;
+    padding-right: 4px;
+}
+span {
+    color: green;
+    background-color: green;
+    height: 8px;
+}
+
+ul.contacto li {
+    display: inline-block;
+    position: relative;
+    left: 70%;
+    padding-left: 5px;
+}
+
+ul.contacto li * {
+    display: inline-block;
+}
+#correo{
+    float: left;
+}
+main{
+    background-color: rgb(39, 39, 39);
+    height: 767px;
+}
+
+nav li {
+    display: inline-block;
+    padding: 10px 20px;
+    list-style-type: none;
+}
+
+nav ul {
+    float: left;
+    padding-left: 30px;
+    
+}
+
+nav form {
+    float: right;
+    padding: 5px 10px;
+}
+
+form input{
+    background-color: rgb(39, 39, 39);;
+    border-style: hidden;
+}
+
+main img:first-of-type {
+    width: 100%;
+}
+
+.caption {
+    position: relative;
+    bottom: 240px;
+    left: 100px;
+    width: 33%;
+    color: white;
+    padding: 20px 10px 10px 10px;
+}
+
+.flecha1{
+    float: left;
+    position: relative;
+    bottom: 280px;
+    left: 88%;
+    color: white;
+    padding: 5px 20px;
+}
+.flecha2{
+    float: left;
+    position: relative;
+    bottom: 280px;
+    left: 79%;
+    color: white;
+    padding: 5px 20px;
+    
+}
+#cap{
+    background-color: rgba(97, 97, 97, 0.829);
+}
+footer{
+    margin-top: 10px;
+}
+footer .articulo {
+    display: inline-block;
+    width: 32%;
+}
+
+.articulo div:first-of-type {
+    display: inline-block;
+}
+
+.contarti {
+    float: right;
+    width: 85%;
+}
