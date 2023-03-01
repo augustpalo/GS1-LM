@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    font-family: 'lobster', cursive;
+}
+img{
+    width: 90%;
+}
+h4, h1, p{
+    margin: 0px;
+}
+.container{
+    width: 90%;
+    margin: 0px auto;
+}
+header{
+    font-family: 'lobster', cursive;
+    margin: 0px auto;
+    text-align: center;
+    color: #666666;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #666666;
+    margin-bottom: 20px;
+}
+
+.content_wrapper{
+    display: flex;
+
+}
+main, article{
+    text-align: center;
+    border: solid 1px #666666;
+    border-radius: 10px;
+}
+nav{
+    margin-right: 20px;
+}
+
+article{
+    justify-content: space-evenly;
+}
+article
