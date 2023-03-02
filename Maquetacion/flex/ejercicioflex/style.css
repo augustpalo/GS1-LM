@@ -1,9 +1,10 @@
 *{
     box-sizing: border-box;
     font-family: 'lobster', cursive;
+    color: #666666;
 }
 img{
-    width: 90%;
+    border-radius: 10px;
 }
 h4, h1, p{
     margin: 0px;
@@ -13,10 +14,9 @@ h4, h1, p{
     margin: 0px auto;
 }
 header{
-    font-family: 'lobster', cursive;
+    font-family: 'lobster';
     margin: 0px auto;
     text-align: center;
-    color: #666666;
     padding-bottom: 10px;
     border-bottom: solid 1px #666666;
     margin-bottom: 20px;
@@ -24,18 +24,51 @@ header{
 
 .content_wrapper{
     display: flex;
+    justify-content: space-between;
+    height: 60%;
 
 }
 main, article{
     text-align: center;
     border: solid 1px #666666;
     border-radius: 10px;
+    padding: 15px;
 }
 nav{
-    margin-right: 20px;
+    width: 10%;
 }
+main{
+    width: 50%;
+}
+main>img{
+    width: 90%;
+    height: 60%;
+}
+.content_wrapper>article{
+    width: 35%;
+}
+.content_wrapper>article>img{
+    width: 80%
+}
+.articles{
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+}
+.articles img{
+    height: 50%;
+    width: 90%;
 
-article{
-    justify-content: space-evenly;
 }
-article
+.articles>article{
+    width: 30%;
+    height: 200px;
+    margin: 10px 0 10px 20px;
+}
+footer{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: solid 1px #8a8a8a;
+}
