@@ -95,7 +95,7 @@ button:hover{
 h1 {
     width: fit-content;
     margin: 0;
-    font: italic bold 72px monospace;
+    font: bold 72px 'Carter One';
     background: -webkit-linear-gradient(lightblue, #437d95);
     -webkit-background-clip: text;
     background-clip: none ;
