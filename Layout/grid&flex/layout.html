@@ -12,13 +12,9 @@
 </head>
 
 <body>
-    <div>
-        <ul>
-            <li>
-                <h1>Grafpedia</h1>
-            </li>
-            <li><input type="text" name="buscador" placeholder="Type and hit enter to search"></li>
-        </ul>
+    <div class="grid">
+        <h1>Grafpedia</h1>
+        <input type="text" name="buscador" placeholder="Type and hit enter to search">
         <main>
             <nav>
                 <ul>
@@ -34,80 +30,77 @@
             <img id="right" class="arrow" src="src/arrow.png" alt="left button">
             <img src="src/navimg.png" alt="Imagen con servicios">
         </main>
-        <div>
+        <div class="vip">
             <p>Get lots of vectors, icons, web layouts, brushes, textures and gradients >></p>
             <button type="button">Apply for a VIP account</button>
         </div>
-        <div class="grid">
-            <article id="services">
+        <article id="services">
+            <div>
+                <img src="src/services.png" alt="Icon for card">
+                <h3>Services</h3>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae nam ipsam hic? </p>
+            <ul>
+                <a href="#" target="_blank">
+                    <li>Web Design >></li>
+                </a>
+                <a href="#" target="_blank">
+                    <li>Print Design >></li>
+                </a>
+                <a href="#" target="_blank">
+                    <li>Logos Design >></li>
+                </a>
+                <a href="#" target="_blank">
+                    <li>Icon Design >></li>
+                </a>
+            </ul>
+        </article>
+        <article id="store">
+            <div>
+                <img src="src/store.png" alt="Icon for card">
+                <h3>Products</h3>
+            </div>
+            <div class="products">
+                <img src="src/icons8-floppy-disk-64(1).png" alt="" class="">
+                <img src="src/icons8-floppy-disk-64(2).png" alt="" class="">
+                <img src="src/icons8-floppy-disk-64(3).png" alt="" class="">
+                <img src="src/icons8-floppy-disk-64.png" alt="" class="">
+                <img src="src/icons8-diskette-64.png" alt="" class="">
+                <img src="src/floppy-disk.png" alt="" class="">
+            </div>
+        </article>
+        <article id="mail">
+            <div>
+                <img src="src/mail.png" alt="Icon for card">
+                <h3>About us</h3>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae nam ipsam hic?
+            </p><br>
+            <p>Aliquid sapiente,
+                amet incidunt quam rem, eius voluptatibus nulla laudantium quo ea voluptatem expedita magni
+                inventore labore. Praesentium.</p>
+        </article>
+        <article id="blog">
+            <div>
+                <img src="src/blog.png" alt="Blog">
+                <h3>Blog</h3>
+            </div>
+            <div>
+                <img src="src/aurora.jpeg" alt="imagen de una aurora borealis">
                 <div>
-                    <img src="src/services.png" alt="Icon for card">
-                    <h3>Services</h3>
+                    <h2>Create a light effect in Photoshop</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius nisi quis aperiam repellat
+                        adipisci</p>
                 </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae nam ipsam hic? </p>
-                <ul>
-                    <a href="#" target="_blank">
-                        <li>Web Design >></li>
-                    </a>
-                    <a href="#" target="_blank">
-                        <li>Print Design >></li>
-                    </a>
-                    <a href="#" target="_blank">
-                        <li>Logos Design >></li>
-                    </a>
-                    <a href="#" target="_blank">
-                        <li>Icon Design >></li>
-                    </a>
-                </ul>
-            </article>
-            <article id="store">
+            </div>
+            <div>
+                <img src="src/navbar.png" alt="imagen de una barra de navegacion">
                 <div>
-                    <img src="src/store.png" alt="Icon for card">
-                    <h3>Products</h3>
+                    <h2>Design a Clean Business Layout</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
                 </div>
-                <div class="products">
-                    <img src="src/icons8-floppy-disk-64(1).png" alt="" class="">
-                    <img src="src/icons8-floppy-disk-64(2).png" alt="" class="">
-                    <img src="src/icons8-floppy-disk-64(3).png" alt="" class="">
-                    <img src="src/icons8-floppy-disk-64.png" alt="" class="">
-                    <img src="src/icons8-diskette-64.png" alt="" class="">
-                    <img src="src/floppy-disk.png" alt="" class="">
-                </div>
-            </article>
-            <article id="mail">
-                <div>
-                    <img src="src/mail.png" alt="Icon for card">
-                    <h3>About us</h3>
-                </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae nam ipsam hic?
-                </p><br>
-                <p>Aliquid sapiente,
-                    amet incidunt quam rem, eius voluptatibus nulla laudantium quo ea voluptatem expedita magni
-                    inventore labore. Praesentium.</p>
-            </article>
-            <article id="blog">
-                <div>
-                    <img src="src/blog.png" alt="Blog">
-                    <h3>Blog</h3>
-                </div>
-                <div>
-                    <img src="src/aurora.jpeg" alt="imagen de una aurora borealis">
-                    <div>
-                        <h2>Create a light effect in Photoshop</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius nisi quis aperiam repellat
-                            adipisci</p>
-                    </div>
-                </div>
-                <div>
-                    <img src="src/navbar.png" alt="imagen de una barra de navegacion">
-                    <div>
-                        <h2>Design a Clean Business Layout</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
-                    </div>
-                </div>
-            </article>
-        </div>
-
+            </div>
+        </article>
     </div>
 </body>
 
