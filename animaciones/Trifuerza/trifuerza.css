@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    background-color: rgb(49, 49, 49);
+    height: 700px;
+    width: 700px;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.trif {
+    fill: yellow;
+    stroke: goldenrod;
+    stroke-width: 5;
+    width: 10%;
+    position: absolute;
+}
+
+#t1 {
+    animation-name: tra1;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-duration: 8s;
+    animation-iteration-count: 1;
+    top: 33%;
+    left: 45%;
+}
+
+@keyframes tra1 {
+    0% {
+        transform: scale(0.05);
+        top: -33%;
+        left: 45%;
+    }
+    75% {
+        transform: scale(1)/* rotate(562deg)rotateY(810deg) */;
+        top: 33%;
+        left: 45%;
+    }
+    100% {
+        /*transform:  rotate(720deg)rotateY(1080deg) */
+    }
+}
+
+#t1 > * {
+    animation-iteration-count: 4;
+    animation-name: rot1;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    transform-origin: 50% 55%;
+}
+
+@keyframes rot1{
+    0%{
+        transform: rotate(1deg)rotateY(1deg);
+    }
+    100%{
+        transform: rotate(359deg)rotateY(359deg);
+    }
+}
+
+
+#t2 {
+    animation-name: tri2;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-duration: 8s;
+    animation-iteration-count: 1;
+    top: 42%;
+    left: 40%;
+}
+
+@keyframes tri2 {
+    0% {
+        transform: scale(0.05);
+        top: 80%;
+        left: -20%
+    }
+
+    75% {
+        transform: scale(1)/* rotate(562deg)rotateY(810deg) */;
+        top: 42%;
+        left: 40%;
+    }
+
+    100% {
+       /*  transform: rotate(720deg)rotateY(1080deg) */
+    }
+}
+#t2 > * {
+    animation-iteration-count: 4;
+    animation-name: rot2;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    transform-origin: 50% 55%;
+}
+
+@keyframes rot2{
+    0%{
+        transform: rotate(1deg)rotateY(1deg);
+    }
+    100%{
+        transform: rotate(359deg)rotateY(359deg);
+    }
+}
+
+#t3 {
+    animation-name: tri3;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-duration: 8s;
+    animation-iteration-count: 1;
+    top: 42%;
+    left: 50%;
+}
+
+@keyframes tri3 {
+    0% {
+        transform: scale(0.05);
+        top: 80%;
+        left: 120%
+    }
+
+    75% {
+        transform: scale(1)/* rotate(-562deg)rotateY(810deg) */;
+        top: 42%;
+        left: 50%;
+    }
+
+    100% {
+     /*     transform: rotate(-720deg)rotateY(1080deg)*/
+    }
+}
+#t3 > * {
+    animation-iteration-count: 4;
+    animation-name: rot3;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    transform-origin: 50% 55%;
+}
+
+@keyframes rot3{
+    0%{
+        transform: rotate(-1deg)rotateY(-1deg);
+    }
+    100%{
+        transform: rotate(-359deg)rotateY(-359deg);
+    }
+}
