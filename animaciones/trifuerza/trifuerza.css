@@ -43,12 +43,30 @@ body {
         left: 45%;
     }
     75% {
-        transform: scale(1)rotate(562deg)rotateY(562deg);
+        transform: scale(1)/* rotate(562deg)rotateY(810deg) */;
         top: 33%;
         left: 45%;
     }
     100% {
-        transform: rotate(720deg)rotateY(720deg)
+        /*transform:  rotate(720deg)rotateY(1080deg) */
+    }
+}
+
+#t1 > * {
+    animation-iteration-count: 4;
+    animation-name: rot1;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    transform-origin: 50% 55%;
+}
+
+@keyframes rot1{
+    0%{
+        transform: rotate(1deg)rotateY(1deg);
+    }
+    100%{
+        transform: rotate(359deg)rotateY(359deg);
     }
 }
 
@@ -60,7 +78,7 @@ body {
     animation-duration: 8s;
     animation-iteration-count: 1;
     top: 42%;
-    left: 39.7%;
+    left: 40%;
 }
 
 @keyframes tri2 {
@@ -71,13 +89,30 @@ body {
     }
 
     75% {
-        transform: scale(1)rotate(562deg)rotateY(562deg);
+        transform: scale(1)/* rotate(562deg)rotateY(810deg) */;
         top: 42%;
-        left: 39.7%;
+        left: 40%;
     }
 
     100% {
-        transform: rotate(720deg)rotateY(720deg)
+       /*  transform: rotate(720deg)rotateY(1080deg) */
+    }
+}
+#t2 > * {
+    animation-iteration-count: 4;
+    animation-name: rot2;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    transform-origin: 50% 55%;
+}
+
+@keyframes rot2{
+    0%{
+        transform: rotate(1deg)rotateY(1deg);
+    }
+    100%{
+        transform: rotate(359deg)rotateY(359deg);
     }
 }
 
@@ -99,12 +134,29 @@ body {
     }
 
     75% {
-        transform: scale(1)rotate(-562deg)rotateY(810deg);
+        transform: scale(1)/* rotate(-562deg)rotateY(810deg) */;
         top: 42%;
         left: 50%;
     }
 
     100% {
-        transform: rotate(-720deg)rotateY(1080deg)
+     /*     transform: rotate(-720deg)rotateY(1080deg)*/
+    }
+}
+#t3 > * {
+    animation-iteration-count: 4;
+    animation-name: rot3;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    transform-origin: 50% 55%;
+}
+
+@keyframes rot3{
+    0%{
+        transform: rotate(-1deg)rotateY(-1deg);
+    }
+    100%{
+        transform: rotate(-359deg)rotateY(-359deg);
     }
 }
