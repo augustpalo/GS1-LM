@@ -1,0 +1,7 @@
+<svg viewbox ="0 0 100 100">
+    <polygon 
+        points="50,1 99,99 0,99" 
+        style="fill:yellow;stroke:goldenrod;stroke-width:1"
+        class="trif"
+    />
+</svg>
