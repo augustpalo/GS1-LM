@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+div{
+    height: 200px;
+}
+
+img{
+    width: 100%;
+}
+
+#rojo{
+    background-color: red;
+}
+#azul{
+    background-color: blue;
+}
+
+.container > *{
+        width: 100%;
+}
+
+@media screen and (min-width: 576px){
+    .container > .art-dir, .container > #rojo {
+        width: 50%;
+    }
+    .container > #azul{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 992px){
+
+    .container > .art-dir, .container > #rojo, .container > #azul {
+        width: 33%;
+    }
+
+}
