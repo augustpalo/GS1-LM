@@ -4,9 +4,9 @@
 .container{
     width: 90%;
     margin: 0 auto;
-
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     background-color: lightgray;
 }
 
@@ -25,7 +25,8 @@
 
 .container > *{
     width: 50%;
-    height: 150px;
+    max-width: 250px;
+    aspect-ratio: 1/1;
 
 }
 
@@ -33,9 +34,13 @@
 
     .container > *{
         width: 33%;
+        height: 100px;
+        
     }
     .cuatro{
         width: 100%;
+        max-width: 100%;
+        
     }
 }
 
