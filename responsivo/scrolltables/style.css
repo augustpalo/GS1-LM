@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 80%;
+    margin: 0 auto;
+}
+
+table {
+    margin: 50px
+}
+
+table.hide {
+    background-color: lightblue;
+}
+
+table.list {
+    background-color: lightgreen;
+}
+
+div.scroll table {
+    background-color: lightcoral;
+}
+
+tr>* {
+    padding: 0px 25px;
+}
+
+@media screen and (max-width: 576px) {
+
+    .hide td.primero,
+    .hide th.primero {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .hide td.segundo,
+    .hide th.segundo {
+        display: none;
+    }
+
+    .list  * {
+        display: block
+    }
+
+    div.scroll {
+        overflow-x: auto;
+        width: 100%;      
+    }
+}
