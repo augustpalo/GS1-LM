@@ -7,21 +7,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="style.css">
+  <!-- Para el símbolo para mostrar el menú -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
 <body>
   <div class="content">
     <div class="header">
-      <h1>Richard Carpenter</h1>
-      <p>Photography</p>
+      <div class="title">
+        <h1>Richard Carpenter</h1>
+        <p>Photography</p>
+      </div>
       <div class="social">
         <p>My Social Network</p>
-        <img src="" alt=""><img src="" alt=""><img src="" alt="">
+        <div class="icon"><i class="fa fa-bars"></i></div>
+        <div class="social-ico">
+          <img src="src/twitter.png" alt="twitter">
+          <img src="src/facebook.png" alt="facebook">
+          <img src="src/flickr.png" alt="flickr">
+        </div>
       </div>
     </div>
     <div class="main">
       <div class="banner">
-        <h2>SPECIALIST IN AWESOME <span>PHOTOGRAPHY</span></h2>
+        <h2>SPECIALIST IN AWESOME <span>PHOTOGRAPHY.</span></h2>
         <h3>LET ME CAPTURE YOUR MOMENTS</h3>
         <img id="cam" src="src/cam.png" alt="">
         <img id="photo" src="" alt="">
@@ -31,17 +41,33 @@
           <h2><span>RECENT</span>PHOTOS</h2>
           <a href="#">PORTFOLIO</a>
         </div>
+        <img src="src/1.jpeg" alt="">
+        <img src="src/2.jpeg" alt="">
+        <img src="src/3.jpeg" alt="">
+        <img src="src/4.jpeg" alt="">
       </div>
-      <img src="src/1.jpeg" alt="">
-      <img src="src/2.jpeg" alt="">
-      <img src="src/3.jpeg" alt="">
-      <img src="src/4.jpeg" alt="">
 
     </div>
     <div class="footer">
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In tempora minima veniam quod, necessitatibus at maiores nostrum quisquam odio. Temporibus ut veritatis sapiente, aperiam, eveniet ad accusantium omnis mollitia saepe voluptas nihil delectus, aut consequatur laborum nulla cum?</p>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In tempora minima veniam quod, necessitatibus at
+        maiores nostrum quisquam odio. Temporibus ut veritatis sapiente, aperiam, eveniet ad accusantium omnis mollitia
+        saepe voluptas nihil delectus, aut consequatur laborum nulla cum?</p>
     </div>
   </div>
+  <script>
+    $(function () {
+      //Captura del evento para mostrar u ocultar
+      $(".icon").click(function () {
+        $(".social-ico").toggle();
+      });
+      $(window).resize(function () {
+        var anchura = $(this).width();
+        if (anchura > 576) {
+          $(".social-ico").show();
+        }
+      });
+    });
+  </script>
 </body>
 
 </html>
