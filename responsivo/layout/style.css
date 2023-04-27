@@ -178,3 +178,43 @@ h2,h3,p,span{
     font-size: 4vw;
   }
 }
+@media screen and (min-width: 993px){
+  body{
+    background-image: url(src/bg.jpg);
+    background-repeat: no-repeat;
+    background-color: black;
+  }
+  .header{
+    justify-content: space-between;
+    align-content: center;
+  }
+  .title{
+    text-align: left;
+  }
+  .social{
+    display: flex;
+    height: auto;
+    flex-basis: 15.6vw;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .social p{
+    display: inline-flex;
+    margin: 0;
+    color: rgb(140, 140, 140);
+    font-size: 1vw;
+  }
+  .social-ico{
+  position: static;
+  display: inline-block;
+  margin: 0;
+  }
+  .social-ico img{
+    display: inline;
+    width: 2vw;
+  }
+
+  .icon{
+    display: none;
+  }
+}
