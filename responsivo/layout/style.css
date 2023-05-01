@@ -5,7 +5,7 @@
 
 
 h1 {
-  font-family: 'Mr Dafoe', cursive;
+  font-family: 'Mr Dafoe', Times;
   color: white;
 }
 
@@ -21,7 +21,7 @@ h2,
 h3,
 span {
   color: rgb(214, 214, 214);
-  font-family: 'Quicksand', monospace;
+  font-family: 'Quicksand', sans-serif;
   font-weight: 300;
 }
 
