@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+header img {
+    width: 5vw;
+    text-align: left;
+}
+
+header nav {
+    display: none;
+}
+.fa{
+    color: white;
+    font-size: 5vw;
+}
+
+main {
+    background-color: rgb(34, 34, 34);
+    color: white;
+    padding: 10%;
+}
+
+h1 {
+    padding: 0 10%;
+}
+
+main section:first-of-type {
+    /* background-color: rgb(34, 34, 34); */
+    /* color: white; */
+    /* padding: 5%; */
+}
+
+main section:last-of-type {}
+
+main section:last-of-type form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+main section:last-of-type label,
+main section:last-of-type input,
+main section:last-of-type p {
+    display: none;
+}
+
+form input{
+    border: 1px solid grey;
+    border-radius: 2px;
+}
+
+form button {
+    padding: 5%;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    width: 40%;
+}
+
+main+section p:last-of-type {
+    padding: 10%;
+}
+
+main+section a {
+    border: solid 1px blue;
+    border-radius: 10px;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.imagen img{
+    width: 25vw;
+}
+
+@media screen and (min-width:576px) {
+    main{
+        padding: 1% 10% 10% 10%;
+    }
+
+    main section:last-of-type label,
+    main section:last-of-type input,
+    main section:last-of-type p {
+        display: block;
+    }
+    form{
+        flex-wrap: wrap;
+        background-color: white;
+        color: black;
+        padding: 5%;
+    }
+
+    form > *, form button{
+        width: 100%;
+    }
+
+    form label{
+        text-align: left;
+        font-weight: bold;
+    }
+    form button{
+        padding: 2% 0;
+    }
+    main + section p:last-of-type {
+        padding: 5%;
+    }
+
+}
+@media screen and (min-width:992px) {
+    header{
+        justify-content: start;
+    }
+
+    header nav{
+        color: white;
+        display: block;
+        width: 50%;
+    }
+
+    .fa{
+        display: none;
+    }
+
+    nav ul{
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+        padding: 0;
+    }
+
+    main{
+        display: flex;
+        flex-flow: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2%;
+    }
+
+    main > section{
+        width: 40%;
+    }
+
+    section.imagen{
+        display: flex;
+    }
+
+    section.imagen img{
+        width: 50vw;
+    }
+
+    section.imagen div:last-of-type {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    section.imagen div:last-of-type div{
+        width: 20vw;
+    }
+}
