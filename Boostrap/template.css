@@ -1,0 +1,14 @@
+.red{
+    background-color:green;
+    text-align: center;
+}
+.blue{
+    background-color: blue;
+    color: white;
+}
+.green{
+    background-color: yellow;
+}
+.container div div{
+    height: 200px;
+}
