@@ -1,6 +1,12 @@
 .red{
-    background-color:green;
+    background-color:rgb(131, 0, 0);
     text-align: start;
+}
+.yellow{
+    background-color: rgb(255, 241, 110);
+}
+.black{
+    background-color: rgb(36, 36, 36);
 }
 .blue{
     background-color: blue;
@@ -8,15 +14,13 @@
     text-align: end;
 }
 .green{
-    background-color: yellow;
+    background-color: rgb(17, 163, 90);
 }
-.red, .blue, .green, .azul2{
+.red, .blue, .green, .azul2, .black, .yellow{
     height:100px;
 }
 
-.row{
-    height: 200px;
-}
+
 
 .azul{
     background-color: rgb(183, 211, 253);
@@ -24,4 +28,12 @@
 
 .azul2{
     background-color: rgb(104, 144, 204);
+}
+
+.prim  > div > div{
+    height: 100px;
+}
+
+.seg > div > div{
+    height: 150px;
 }
