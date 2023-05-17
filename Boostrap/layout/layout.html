@@ -5,8 +5,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Layout BootStrap</title>
+  <!--  <link rel="stylesheet" href="style.css"> -->
+  <link rel="stylesheet" href="bs.css">
   <!-- Para el símbolo para mostrar el menú -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -18,12 +19,16 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css'
+    integrity='sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb' crossorigin='anonymous'>
+
 </head>
 
 <body>
-  <div class="content">
-    <div class="header">
-      <div class="title">
+  <div class="container">
+    <div class="header row">
+      <div class="title col-12">
         <h1>Richard Carpenter</h1>
         <p>Photography</p>
       </div>
@@ -37,31 +42,33 @@
         </div>
       </div>
     </div>
-    <div class="main">
-      <div class="banner">
-        <div class="b-title">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
           <h2>SPECIALIST IN AWESOME</h2><span>PHOTOGRAPHY.</span>
           <h3>LET ME CAPTURE YOUR MOMENTS</h3>
         </div>
-        <picture>
+        <picture class="col-6">
           <source media="(min-width: 577px)" srcset="src/cambig.png">
           <img id="cam" src="src/cam.png" alt="Camera DSLR">
         </picture>
       </div>
-      <div class="gallery">
-        <div class="g-title">
+      <div class="gallery text-center">
+        <div class="g-title text-center">
           <h2><span>RECENT</span><br>PHOTOS</h2>
           <a href="#">PORTFOLIO</a>
         </div>
-        <img src="src/1.jpeg" alt="">
-        <img src="src/2.jpeg" alt="">
-        <img src="src/3.jpeg" alt="">
-        <img src="src/4.jpeg" alt="">
+        <img class="my-2 border border-white" src="src/1.jpeg" alt="">
+        <img class="my-2" src="src/2.jpeg" alt="">
+        <img class="my-2" src="src/3.jpeg" alt="">
+        <img class="my-2" src="src/4.jpeg" alt="">
       </div>
 
     </div>
     <div class="footer">
-      <p>Lorem ipsum dolor, tempora minima veniam quod, necessitatibus at maiores nostrum quisquam odio.<span> Temporibus ut veritatis sapiente, aperiam, eveniet</span> ad accusantium omnis mollitia delectus, aut consequatur laborum nulla cum?</p>
+      <p>Lorem ipsum dolor, tempora minima veniam quod, necessitatibus at maiores nostrum quisquam odio.<span>
+          Temporibus ut veritatis sapiente, aperiam, eveniet</span> ad accusantium omnis mollitia delectus, aut
+        consequatur laborum nulla cum?</p>
     </div>
   </div>
   <script>
@@ -78,6 +85,17 @@
       });
     });
   </script>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src='https://code.jquery.com/jquery-3.2.1.slim.min.js'
+    integrity='sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN'
+    crossorigin='anonymous'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js'
+    integrity='sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh'
+    crossorigin='anonymous'></script>
+  <script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js'
+    integrity='sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ'
+    crossorigin='anonymous'></script>
 </body>
 
 </html>

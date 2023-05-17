@@ -73,13 +73,11 @@ span {
 }
 
 .banner {
-  flex-wrap: wrap;
-  display: flex;
-  justify-content: center;
+
 }
 
 .banner h2 {
-  margin: 0;
+  
   font-size: 5.3vw;
 }
 
@@ -89,25 +87,20 @@ span {
 }
 
 .banner span {
-  display: inline-block;
   font-size: 8.5vw;
   color: red;
 }
 
 .banner picture img {
-  width: 40vw;
+
 }
 
 .gallery {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+
 }
 
 .g-title {
-  flex-basis: 100%;
-  text-align: center;
-  margin: 1em 0;
+
 }
 
 .g-title span {
@@ -116,25 +109,23 @@ span {
 }
 
 .g-title h2 {
-  margin: 0 0 10px 0;
+
 }
 
 .g-title a {
   background-color: red;
   border-radius: 0.5em;
-  padding: 0.5em 1em;
   color: white;
   text-decoration: none;
 }
 
 .gallery img {
-  width: 60vw;
+  
   border: 1.5vw solid white;
-  margin: 2.5% 0;
 }
 
 .footer {
-  text-align: center;
+
 }
 
 .footer p{
@@ -142,142 +133,3 @@ span {
   font-size: 4vw;
 }
 
-@media screen and (min-width: 577px) {
-  .header {
-    justify-content: center;
-  }
-
-  .banner {
-    justify-content: center;
-  }
-
-  /*   .banner > *{
-    outline: solid 1px rgba(240, 80, 240, 0.7);
-  } */
-  .banner picture img {
-    width: 70vw
-  }
-
-  .banner h2 {
-    font-size: 4vw;
-    align-self: flex-end;
-  }
-
-  .banner span {
-    font-size: 6.5vw;
-    align-self: center;
-  }
-
-  .banner h3 {
-    font-size: 3vw;
-    align-self: flex-end;
-  }
-
-  .gallery img {
-    width: 35vw;
-  }
-
-  .footer p {
-    font-size: 4vw;
-  }
-}
-
-@media screen and (min-width: 993px) {
-  body {
-    background-image: url(src/bg.jpg);
-    background-repeat: no-repeat;
-    background-color: black;
-  }
-
-  .header {
-    justify-content: space-between;
-    align-content: center;
-    margin: 0;
-  }
-
-  .title h1{
-    font-size: 3vw;
-    margin-bottom: 0;
-  }
-
-  .title p{
-    bottom: -5px;
-    right: -10px;
-
-  }
-  .title {
-    text-align: left;
-  }
-
-  .social {
-    display: flex;
-    height: auto;
-    flex-basis: 15.6vw;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .social p {
-    display: inline-flex;
-    margin: 0;
-    color: rgb(140, 140, 140);
-    font-size: 1vw;
-  }
-
-  .social-ico {
-    position: static;
-    display: inline-block;
-    margin: 0;
-  }
-
-  .social-ico img {
-    display: inline;
-    width: 2vw;
-    margin: 0;
-  }
-
-  .icon {
-    display: none;
-  }
-
-  .banner{
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-  }
-  .b-title{
-    width: max-content;
-  }
-  .b-title h2{
-    font-size: 2.1vw;
-  }
-  .b-title span{
-    font-size: 3.3vw;
-  }
-  .b-title h3{
-    font-size: 1.5vw;
-  }
- 
-  .banner picture img {
-    width: 50vw;
-  }
-
-  .gallery{
-    align-content: center;
-    flex-wrap: nowrap;
-  }
-  .g-title{
-    flex-basis: auto;
-  }
-
-  .gallery img{
-    width: 15vw;
-    border-width: 0.5vw;
-    margin: 0;
-  }
-  
-  .footer p{
-    
-    font-size: 2vw;
-  }
-}

@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-image: url(src/bgmobil.jpg);
+    background-size: contain;
+    /* background-repeat:repeat-y */
+  }
+  
+.social{
+    display: none;
+}
+
+picture img{
+    width: 100%;
+}
