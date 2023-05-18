@@ -1,5 +1,5 @@
 *{
-    box-sizing: border-box;
+    color: white;
 }
 body {
     background-image: url(src/bgmobil.jpg);
@@ -13,4 +13,23 @@ body {
 
 picture img{
     width: 100%;
+}
+
+.gallery img{
+    border: 1.5vw solid;
+
+}
+
+#main-tit-1{
+    font-size: 6.3vw;
+}
+#main-tit-2{
+    font-size: 10vw;
+}
+#main-tit-3{
+    font-size: 4.5vw;
+}
+
+picture img{
+    width: 50%;
 }
