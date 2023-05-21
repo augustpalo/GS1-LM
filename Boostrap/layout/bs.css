@@ -1,35 +1,61 @@
-*{
+* {
     color: white;
 }
+
 body {
     background-image: url(src/bgmobil.jpg);
     background-size: contain;
     /* background-repeat:repeat-y */
-  }
-  
-.social{
+}
+
+h1 {
+    font-family: 'Mr Dafoe', Times !important; 
+    color: white;
+    rotate: -3deg;
+}
+a, p, h2, h3, span {
+	color: rgb(214, 214, 214);
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 300;
+}
+.social {
     display: none;
 }
 
-picture img{
+picture img {
     width: 100%;
 }
 
-.gallery img{
+.gallery img {
     border: 1.5vw solid;
 
 }
 
-#main-tit-1{
-    font-size: 6.3vw;
-}
-#main-tit-2{
-    font-size: 10vw;
-}
-#main-tit-3{
-    font-size: 4.5vw;
+#main-tit-1 {
+    font-size: 6.1vw;
 }
 
-picture img{
+#main-tit-2 {
+    font-size: 9.6vw;
+    color: red;
+}
+
+#main-tit-3 {
+    font-size: 4.4vw;
+}
+
+picture img {
     width: 50%;
+}
+
+.g-title p{
+    font-size: 5vw;
+}
+
+button {
+    background-color: #ff0000;
+}
+
+.footer p{
+    font-size: 3.8vw;
 }
