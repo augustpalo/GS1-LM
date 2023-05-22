@@ -1,6 +1,7 @@
 * {
     color: white;
 }
+html { font-size: 62.5%; } 
 
 body {
     background-image: url(src/bgmobil.jpg);
@@ -22,17 +23,13 @@ a, p, h2, h3, span {
     display: none;
 }
 
-picture img {
-    width: 100%;
-}
-
 .gallery img {
     border: 1.5vw solid;
 
 }
 
 #main-tit-1 {
-    font-size: 6.1vw;
+    font-size: 185%;
 }
 
 #main-tit-2 {
