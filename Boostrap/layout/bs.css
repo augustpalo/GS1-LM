@@ -11,6 +11,7 @@ body {
 
 h1 {
     font-family: 'Mr Dafoe', Times !important; 
+    font-size: 4rem !important;
     color: white;
     rotate: -3deg;
 }
@@ -29,16 +30,16 @@ a, p, h2, h3, span {
 }
 
 #main-tit-1 {
-    font-size: 185%;
+    font-size: 2rem;
 }
 
 #main-tit-2 {
-    font-size: 9.6vw;
+    font-size: 3.2rem;
     color: red;
 }
 
 #main-tit-3 {
-    font-size: 4.4vw;
+    font-size: 1.45rem;
 }
 
 picture img {
