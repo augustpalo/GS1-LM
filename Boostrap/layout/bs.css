@@ -1,7 +1,10 @@
 * {
     color: white;
 }
-html { font-size: 62.5%; } 
+
+html {
+    font-size: 62.5%;
+}
 
 body {
     background-image: url(src/bgmobil.jpg);
@@ -9,51 +12,79 @@ body {
     /* background-repeat:repeat-y */
 }
 
+.container {
+    max-width: 100% !important;
+    width: 85% !important;
+}
+.header{
+    height: 100px;
+}
+.header div{
+    height: max-content;
+}
+
 h1 {
-    font-family: 'Mr Dafoe', Times !important; 
+    font-family: 'Mr Dafoe', Times !important;
     font-size: 4rem !important;
     color: white;
     rotate: -3deg;
 }
-a, p, h2, h3, span {
-	color: rgb(214, 214, 214);
-	font-family: 'Quicksand', sans-serif;
-	font-weight: 300;
+
+a,
+p,
+h2,
+h3,
+span {
+    color: rgb(214, 214, 214);
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
 }
-.social {
-    display: none;
+.social{
+    overflow:visible
+}
+.social p {
+    font-size: 1.5rem;
 }
 
-.gallery img {
-    border: 1.5vw solid;
-
+.social img {
+    width: auto;
+    overflow:visible
+}
+.social i{
+    font-size: 3rem;
 }
 
 #main-tit-1 {
-    font-size: 2rem;
+    font-size: 2.1rem;
 }
 
 #main-tit-2 {
-    font-size: 3.2rem;
+    font-size: 3.3rem;
     color: red;
 }
 
 #main-tit-3 {
-    font-size: 1.45rem;
+    font-size: 1.5rem;
 }
 
-picture img {
-    width: 50%;
-}
 
-.g-title p{
-    font-size: 5vw;
+.g-title p {
+    font-size: 4rem;
 }
 
 button {
     background-color: #ff0000;
+    font-size: 2rem !important;
 }
 
-.footer p{
-    font-size: 3.8vw;
+
+
+.footer p {
+    font-size: 3rem;
+}
+
+.gallery img {
+    border: 1rem solid white;
+    height: fit-content;
+
 }

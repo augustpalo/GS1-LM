@@ -28,29 +28,30 @@
 
 
 <body>
-  <div class="container">
+  <div class="container-fluid">
     <div class="header row ">
-      <div class="title col d-flex flex-wrap">
+      <div class="title col-10 col-lg-3 d-flex flex-wrap justify-content-sm-center offset-lg-1">
         <div class="row w-90">
           <h1 class="col">Richard Carpenter</h1>
         </div>
         <div class="row w-100">
-          <p class="col offset-6">Photography</p>
+          <p class="col offset-6 offset-lg-2">Photography</p>
         </div>
       </div>
-      <div class="social">
-        <p>My Social Network</p>
-        <div class="icon"><i class="fa fa-bars"></i></div>
-        <div class="social-ico">
-          <img src="src/twitter.png" alt="twitter">
-          <img src="src/facebook.png" alt="facebook">
-          <img src="src/flickr.png" alt="flickr">
+      <div class="row col-2 pr-0 col-sm-2 col-lg-4 d-flex flex-column flex-lg-row align-items-end offset-lg-3 justify-content-between justify-content-lg-end social-ico social">
+        <div class="icon  p-lg-0 text-center col-2 p-0">
+          <i class="d-lg-none pr-5 fa fa-bars"></i>
         </div>
+        <p class="col-1 col-lg-3 d-none d-lg-inline p-lg-0 text-muted">My Social Network</p>
+        <img class="col-7 p-0 col-sm-5 col-lg-1 p-lg-0" src="src/twitter.png" alt="twitter">
+        <img class="col-7 p-0 col-sm-5 col-lg-1 mx-lg-1 p-lg-0" src="src/facebook.png" alt="facebook">
+        <img class="col-7 p-0 col-sm-5 col-lg-1 mx-lg-1 p-lg-0" src="src/flickr.png" alt="flickr">
       </div>
     </div>
-    <div class="container-fluid d-flex justify-content-center justify-content-lg-between">
-      <div class="row col-lg-12 justify-content-lg-between text-center">
-        <div class="col-12 col-md-10 col-lg-4 d-flex flex-column p-lg-0 align-items-lg-end justify-content-lg-center text-justify">
+    <div class="container-fluid d-flex justify-content-center justify-content-lg-center">
+      <div class="row col-lg-12 justify-content-sm-center text-center">
+        <div
+          class="col-12 col-md-10 col-lg-4 d-flex flex-column p-lg-0 align-items-lg-end justify-content-lg-center text-justify">
           <div class="row">
             <div class="col col-lg-12">
               <p class="m-0 text-center text-lg-right" id="main-tit-1">SPECIALIST IN AWESOME</p>
@@ -58,7 +59,7 @@
           </div>
           <div class="row">
             <div class="col text-lg-right">
-              <span class="text-center" id="main-tit-2">PHOTOGRAPHY.</span>
+              <p class="text-center" id="main-tit-2">PHOTOGRAPHY.</p>
             </div>
           </div>
           <div class="row">
@@ -67,7 +68,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-8 d-flex p-lg-0 justify-content-center">
+        <div class="col-lg-7 d-flex p-lg-0 justify-content-center">
           <picture class="col-9 col-lg-12 p-lg-0 d-flex justify-content-center">
             <source media="(min-width: 576px)" srcset="src/cambig.png">
             <img class="col-8 col-sm-10 col-lg-12 p-lg-0" id="cam" src="src/cam.png" alt="Camera DSLR">
@@ -75,24 +76,21 @@
         </div>
       </div>
     </div>
-    <div class="gallery text-center">
-      <div class="g-title mt-2 text-center">
+    <div class="gallery row text-center d-flex justify-content-center justify-content-sm-around ">
+      <div class="g-title col-lg-1 mt-2 text-center">
         <p class="m-0"><span class="text-muted">RECENT</span><br>PHOTOS</p>
         <button class="btn px-4 btn-lg" href="#">PORTFOLIO</button>
       </div>
-      <div class="row mt-3 d-flex justify-content-around">
-        <img class="col-7 col-sm-5 p-0 my-2" src="src/1.jpeg" alt="">
-        <img class="col-7 col-sm-5 p-0 my-2" src="src/2.jpeg" alt="">
-        <img class="col-7 col-sm-5 p-0 my-2" src="src/3.jpeg" alt="">
-        <img class="col-7 col-sm-5 p-0 my-2" src="src/4.jpeg" alt="">
-      </div>
+      <img class="col-7 col-sm-5 col-lg-2 p-0 my-2 mr-lg-2" src="src/1.jpeg" alt="">
+      <img class="col-7 col-sm-5 col-lg-2 p-0 my-2 mx-lg-2" src="src/2.jpeg" alt="">
+      <img class="col-7 col-sm-5 col-lg-2 p-0 my-2 mx-lg-2" src="src/3.jpeg" alt="">
+      <img class="col-7 col-sm-5 col-lg-2 p-0 my-2 mx-lg-2" src="src/4.jpeg" alt="">
     </div>
 
   </div>
   <div class="footer container text-center">
     <p class="col text-muted">Lorem ipsum dolor, tempora minima veniam quod, necessitatibus at maiores nostrum quisquam
-      odio.<span>
-        Temporibus ut veritatis sapiente, aperiam, eveniet</span> ad accusantium omnis mollitia delectus, aut
+      odio.<span>Temporibus ut veritatis sapiente, aperiam, eveniet</span> ad accusantium omnis mollitia delectus, aut
       consequatur laborum nulla cum?</p>
   </div>
   </div>
